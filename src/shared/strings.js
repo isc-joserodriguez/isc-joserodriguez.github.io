@@ -103,7 +103,7 @@ export const strings = {
                     info: 'Bootcamp - Desarrollo Full Stack • Octubre 2020 - Junio 2021',
                     description: `Gané una beca otorgada a 200 estudiantes para estudiar en un bootcamp
                     el desarrollo web Full Stack con especialización en React. Durante 3 fases que duró
-                    8 meses, en cada fase iban desclificando estudiantes hasta que finalmente quedamos 40.`,
+                    8 meses, en cada fase iban descalificando estudiantes hasta que finalmente quedamos 40.`,
                     logo: LogoBedu
                 },
                 {
@@ -313,7 +313,7 @@ export const strings = {
                     info: 'Bootcamp - Full Stack Development • October 2020 - June 2021',
                     description: `I won a scholarship awarded to 200 students to study Full Stack 
                     web development in a bootcamp with a specialization in React. During 3 phases 
-                    that lasted 8 months, in each phase they were declining students until finally 
+                    that lasted 8 months, in each phase they were disqualifying students until finally 
                     we were 40.`,
                     logo: LogoBedu
                 },
