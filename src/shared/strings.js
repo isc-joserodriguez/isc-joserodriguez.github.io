@@ -253,9 +253,9 @@ export const strings = {
             title: 'Proyectos',
             projects: [
                 { id: 1, name: 'Restaurant Manager', description: 'Plataforma para gestionar los pedidos de un restaurante.', url: 'https://isc-joserodriguez.github.io/BEDU_Grupo5/', repo: 'https://github.com/isc-joserodriguez/BEDU_Grupo5', image: Restaurant },
-                { id: 2, name: 'Búsqueda ML', description: 'Copia de la búsqueda de Mercado Libre.', url: 'https://isc-joserodriguez.github.io/products-ml-react/', repo: 'https://github.com/isc-joserodriguez/products-ml-react', image: ML },
+                { id: 2, name: 'Búsqueda ML', description: 'Clon de la búsqueda de Mercado Libre.', url: 'https://isc-joserodriguez.github.io/products-ml-react/', repo: 'https://github.com/isc-joserodriguez/products-ml-react', image: ML },
                 { id: 3, name: 'Burger Builder', description: 'Plataforma para gestionar pedidos de hamburguesas.', url: 'https://react-burger-builder-aecb3.web.app/', repo: 'https://github.com/isc-joserodriguez/burger-builder', image: Burger },
-                { id: 4, name: 'Matcha', description: 'Copia del landing page de getmatcha.', url: 'https://isc-joserodriguez.github.io/landing-matcha-bootstrap/', repo: 'https://github.com/isc-joserodriguez/landing-matcha-bootstrap', image: Matcha },
+                { id: 4, name: 'Matcha', description: 'Clon del landing page de getmatcha.', url: 'https://isc-joserodriguez.github.io/landing-matcha-bootstrap/', repo: 'https://github.com/isc-joserodriguez/landing-matcha-bootstrap', image: Matcha },
                 { id: 5, name: 'Plataforma de Cursos', description: 'Plataforma para tomar cursos en línea.', url: 'https://project-cursos.surge.sh/', repo: 'https://github.com/isc-joserodriguez/ProyectoCurso', image: Cursos },
                 { id: 6, name: 'TODO App', description: 'TODO App hecha únicamente con vanilla js (sólo un root en el HTML).', url: 'https://isc-joserodriguez.github.io/BEDU-Grupo11/todo-app/', repo: 'https://github.com/isc-joserodriguez/BEDU-Grupo11', image: TODO },
                 { id: 7, name: 'Fic Web', description: 'Compilador web de un lenguaje de programación para crear horarios escolares.', url: 'https://isc-joserodriguez.github.io/ficWeb/', repo: 'https://github.com/isc-joserodriguez/ficWeb', image: Fic },
