@@ -1,4 +1,5 @@
-import { FaCodepen, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaHackerrank, FaCodepen, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiCodewars } from 'react-icons/si';
 
 import LogoBedu from '../assets/images/bedu.svg';
 import LogoITTepic from '../assets/images/ittepic.svg';
@@ -75,9 +76,11 @@ export const strings = {
             { id: 7, displayName: 'Contacto', uriRef: '#contact' },
         ],
         sites: [
-            { id: 1, icon: FaGithub, url: 'https://github.com/isc-joserodriguez' },
-            { id: 2, icon: FaCodepen, url: 'https://codepen.io/isc-joserodriguez' },
-            { id: 3, icon: FaLinkedin, url: 'https://www.linkedin.com/in/isc-joserodriguez' },
+            { id: 1, icon: FaLinkedin, url: 'https://www.linkedin.com/in/isc-joserodriguez' },
+            { id: 2, icon: FaGithub, url: 'https://github.com/isc-joserodriguez' },
+            { id: 3, icon: FaHackerrank, url: 'https://www.hackerrank.com/isc_jrodriguez' },
+            { id: 4, icon: FaCodepen, url: 'https://codepen.io/isc-joserodriguez' },
+            { id: 5, icon: SiCodewars, url: 'https://www.codewars.com/users/isc-joserodriguez' },
         ],
         about: {
             title: 'Sobre mi',
@@ -286,9 +289,11 @@ export const strings = {
             { id: 7, displayName: 'Contact', uriRef: '#contact' },
         ],
         sites: [
-            { id: 1, icon: FaGithub, url: 'https://github.com/isc-joserodriguez' },
-            { id: 2, icon: FaCodepen, url: 'https://codepen.io/isc-joserodriguez' },
-            { id: 3, icon: FaLinkedin, url: 'https://www.linkedin.com/in/isc-joserodriguez' },
+            { id: 1, icon: FaLinkedin, url: 'https://www.linkedin.com/in/isc-joserodriguez' },
+            { id: 2, icon: FaGithub, url: 'https://github.com/isc-joserodriguez' },
+            { id: 3, icon: FaHackerrank, url: 'https://www.hackerrank.com/isc_jrodriguez' },
+            { id: 4, icon: FaCodepen, url: 'https://codepen.io/isc-joserodriguez' },
+            { id: 5, icon: SiCodewars, url: 'https://www.codewars.com/users/isc-joserodriguez' },
         ],
         about: {
             title: 'About',
