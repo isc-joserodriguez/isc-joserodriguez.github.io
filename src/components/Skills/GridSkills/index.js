@@ -7,9 +7,9 @@ import ReactTooltip from 'react-tooltip';
 import classes from './index.module.css'
 
 
-const GridSkills = ({ title, technologies }) => (
+const GridSkills = ({ title, technologies, id }) => (
     <>
-        <h5 className={classes.Title}> {title} </h5>
+        <h5 className={classes.Title} id={id}> {title} </h5>
         <Row className='py-3'>
             {technologies.map(tech => (
                 <Col key={tech.id} sm='3' className='d-flex justify-content-center align-items-center p-3'>

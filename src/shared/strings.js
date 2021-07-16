@@ -187,6 +187,7 @@ export const strings = {
             technologies: {
                 language: {
                     title: 'Lenguajes',
+                    id:'languages',
                     technologies: [
                         { id: 1, name: 'JavaScript', icon: LogoJs, url: 'https://developer.mozilla.org/es/docs/Web/JavaScript' },
                         { id: 2, name: 'HTML', icon: LogoHtml, url: 'https://developer.mozilla.org/es/docs/Web/HTML' },
@@ -200,6 +201,7 @@ export const strings = {
                 },
                 db: {
                     title: 'Bases de Datos',
+                    id:'dbs',
                     technologies: [
                         { id: 1, name: 'MongoDB', icon: LogoMongodb, url: 'https://www.mongodb.com/es' },
                         { id: 2, name: 'MS SQL Server', icon: LogoSqlServer, url: 'https://www.microsoft.com/es-mx/sql-server/sql-server-downloads' },
@@ -209,6 +211,7 @@ export const strings = {
                 },
                 css: {
                     title: 'Frameworks de CSS',
+                    id:'css',
                     technologies: [
                         { id: 1, name: 'Bootstrap', icon: LogoBootstrap, url: 'https://getbootstrap.com/' },
                         { id: 2, name: 'Bulma', icon: LogoBulma, url: 'https://bulma.io/' },
@@ -218,6 +221,7 @@ export const strings = {
                 },
                 framework: {
                     title: 'Frameworks',
+                    id:'frameworks',
                     technologies: [
                         { id: 1, name: 'Express.js', icon: LogoExpress, url: 'https://expressjs.com/es/' },
                         { id: 2, name: 'React', icon: LogoReact, url: 'https://es.reactjs.org/' },
@@ -232,6 +236,7 @@ export const strings = {
                 },
                 cloud: {
                     title: 'Nube',
+                    id:'cloud',
                     technologies: [
                         { id: 1, name: 'Firebase', icon: LogoFirebase, url: 'https://firebase.google.com/?hl=es' },
                         { id: 2, name: 'MongoDB Atlas', icon: LogoMongodb, url: 'https://www.mongodb.com/es/cloud/atlas' },
@@ -241,6 +246,7 @@ export const strings = {
                 },
                 other: {
                     title: 'Otras',
+                    id:'other',
                     technologies: [
                         { id: 1, name: 'Git', icon: LogoGit, url: 'https://git-scm.com/' },
                         { id: 2, name: 'NodeJS', icon: LogoNodejs, url: 'https://nodejs.org/es/' },
@@ -407,6 +413,7 @@ export const strings = {
             technologies: {
                 language: {
                     title: 'Languages',
+                    id:'languages',
                     technologies: [
                         { id: 1, name: 'JavaScript', icon: LogoJs, url: 'https://developer.mozilla.org/es/docs/Web/JavaScript' },
                         { id: 2, name: 'HTML', icon: LogoHtml, url: 'https://developer.mozilla.org/es/docs/Web/HTML' },
@@ -420,6 +427,7 @@ export const strings = {
                 },
                 db: {
                     title: 'Data Bases',
+                    id:'dbs',
                     technologies: [
                         { id: 1, name: 'MongoDB', icon: LogoMongodb, url: 'https://www.mongodb.com/es' },
                         { id: 2, name: 'MS SQL Server', icon: LogoSqlServer, url: 'https://www.microsoft.com/es-mx/sql-server/sql-server-downloads' },
@@ -429,6 +437,7 @@ export const strings = {
                 },
                 css: {
                     title: 'CSS Frameworks',
+                    id:'css',
                     technologies: [
                         { id: 1, name: 'Bootstrap', icon: LogoBootstrap, url: 'https://getbootstrap.com/' },
                         { id: 2, name: 'Bulma', icon: LogoBulma, url: 'https://bulma.io/' },
@@ -438,6 +447,7 @@ export const strings = {
                 },
                 framework: {
                     title: 'Frameworks',
+                    id:'frameworks',
                     technologies: [
                         { id: 1, name: 'Express.js', icon: LogoExpress, url: 'https://expressjs.com/es/' },
                         { id: 2, name: 'React', icon: LogoReact, url: 'https://es.reactjs.org/' },
@@ -452,6 +462,7 @@ export const strings = {
                 },
                 cloud: {
                     title: 'Cloud',
+                    id:'cloud',
                     technologies: [
                         { id: 1, name: 'Firebase', icon: LogoFirebase, url: 'https://firebase.google.com/?hl=es' },
                         { id: 2, name: 'MongoDB Atlas', icon: LogoMongodb, url: 'https://www.mongodb.com/es/cloud/atlas' },
@@ -461,6 +472,7 @@ export const strings = {
                 },
                 other: {
                     title: 'Other',
+                    id:'other',
                     technologies: [
                         { id: 1, name: 'Git', icon: LogoGit, url: 'https://git-scm.com/' },
                         { id: 2, name: 'NodeJS', icon: LogoNodejs, url: 'https://nodejs.org/es/' },

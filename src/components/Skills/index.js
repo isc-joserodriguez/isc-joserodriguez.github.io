@@ -19,13 +19,12 @@ const Skills = ({
         <Container>
             <hr className={classes.Divisor} />
             <h3 className={classes.Title}>{title}</h3>
-            <GridSkills title={language.title} technologies={language.technologies} />
-            <GridSkills title={db.title} technologies={db.technologies} />
-            <GridSkills title={css.title} technologies={css.technologies} />
-            <GridSkills title={framework.title} technologies={framework.technologies} />
-            <GridSkills title={cloud.title} technologies={cloud.technologies} />
-            <GridSkills title={other.title} technologies={other.technologies} />
-
+            <GridSkills id={language.id} title={language.title} technologies={language.technologies} />
+            <GridSkills id={db.id} title={db.title} technologies={db.technologies} />
+            <GridSkills id={framework.id} title={framework.title} technologies={framework.technologies} />
+            <GridSkills id={css.id} title={css.title} technologies={css.technologies} />
+            <GridSkills id={cloud.id} title={cloud.title} technologies={cloud.technologies} />
+            <GridSkills id={other.id} title={other.title} technologies={other.technologies} />
         </Container>
     </section>
 )
