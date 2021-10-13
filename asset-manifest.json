@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eb8dc154.chunk.css",
-    "main.js": "/static/js/main.01099d17.chunk.js",
-    "main.js.map": "/static/js/main.01099d17.chunk.js.map",
+    "main.js": "/static/js/main.2dde602b.chunk.js",
+    "main.js.map": "/static/js/main.2dde602b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5f6a2a82.js",
     "runtime-main.js.map": "/static/js/runtime-main.5f6a2a82.js.map",
     "static/css/2.4be38407.chunk.css": "/static/css/2.4be38407.chunk.css",
@@ -14,9 +14,10 @@
     "static/css/2.4be38407.chunk.css.map": "/static/css/2.4be38407.chunk.css.map",
     "static/css/main.eb8dc154.chunk.css.map": "/static/css/main.eb8dc154.chunk.css.map",
     "static/js/2.486deabf.chunk.js.LICENSE.txt": "/static/js/2.486deabf.chunk.js.LICENSE.txt",
+    "static/media/Blackstone.65be5f4e.svg": "/static/media/Blackstone.65be5f4e.svg",
     "static/media/CPlusPlus.48ad2ff0.svg": "/static/media/CPlusPlus.48ad2ff0.svg",
     "static/media/CSharp.e2c0510d.svg": "/static/media/CSharp.e2c0510d.svg",
-    "static/media/CV-Jose-Rodriguez.29328686.pdf": "/static/media/CV-Jose-Rodriguez.29328686.pdf",
+    "static/media/CV-Jose-Rodriguez.c724cc04.pdf": "/static/media/CV-Jose-Rodriguez.c724cc04.pdf",
     "static/media/FreeLance.7394a933.svg": "/static/media/FreeLance.7394a933.svg",
     "static/media/RaiseTechnology.5c648f71.svg": "/static/media/RaiseTechnology.5c648f71.svg",
     "static/media/UCamp.8222c487.svg": "/static/media/UCamp.8222c487.svg",
@@ -69,6 +70,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.486deabf.chunk.js",
     "static/css/main.eb8dc154.chunk.css",
-    "static/js/main.01099d17.chunk.js"
+    "static/js/main.2dde602b.chunk.js"
   ]
 }
