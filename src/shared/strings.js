@@ -1,6 +1,7 @@
 import { FaHackerrank, FaCodepen, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiCodewars } from 'react-icons/si';
 
+import LogoBlackstone from '../assets/images/Blackstone.svg';
 import LogoBedu from '../assets/images/bedu.svg';
 import LogoITTepic from '../assets/images/ittepic.svg';
 import LogoCetis from '../assets/images/dgeti.svg';
@@ -139,6 +140,15 @@ export const strings = {
             title: 'Trabajo',
             works: [
                 {
+                    id: 0,
+                    company: 'Blackstone Studio',
+                    url: 'https://www.blackstone.studio/',
+                    position: 'Full Stack Developer Mid • Septiembre 2021 - Actual',
+                    description: `He participado como desarrollador Full Stack en proyectos con 
+                    tecnologías como React.js, Strapi, AWS, NativeBase, Ant Design, entre otras.`,
+                    logo: LogoBlackstone
+                },
+                {
                     id: 1,
                     company: 'Universidad Utel | U-Camp',
                     url: 'https://u-camp.utel.edu.mx/',
@@ -152,7 +162,7 @@ export const strings = {
                     id: 2,
                     company: 'Freelance',
                     url: '#projects',
-                    position: 'Desarrollador Full Stack • Julio 2020 - Actual',
+                    position: 'Desarrollador Full Stack • Julio 2020 - Septiembre 2021',
                     description: `He colaborado en algunos proyectos de empresas locales 
                     con tecnologías como React, Gatsby.js, Next.js, Drupal, MongoDB, Firebase.`,
                     logo: LogoFree
@@ -362,6 +372,16 @@ export const strings = {
             title: 'Work',
             works: [
                 {
+                    id: 0,
+                    company: 'Blackstone Studio',
+                    url: 'https://www.blackstone.studio/',
+                    position: 'Full Stack Developer Mid • September 2021 - Current',
+                    description: `I have participated as a Full Stack developer in 
+                    projects with technologies such as React.js, Strapi, AWS, NativeBase, 
+                    Ant Design, among others.`,
+                    logo: LogoBlackstone
+                },
+                {
                     id: 1,
                     company: 'Utel University | U-Camp',
                     url: 'https://u-camp.utel.edu.mx/',
@@ -375,7 +395,7 @@ export const strings = {
                     id: 2,
                     company: 'Freelance',
                     url: '#projects',
-                    position: 'Full Stack Developer • July 2020 - Current',
+                    position: 'Full Stack Developer • July 2020 - September 2021',
                     description: `I have collaborated in some projects of local 
                     companies with technologies such as React, Gatsby.js, Next.js, 
                     Drupal, MongoDB, Firebase.`,
