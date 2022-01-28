@@ -25,7 +25,6 @@
 }
 
 .FlipCard {
-    background-color: transparent;
     width: 100%;
     height: 315px;
     perspective: 1000px;
@@ -33,6 +32,7 @@
 
 .FlipCardInner {
     position: relative;
+    background-color: #2980b9;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -54,12 +54,10 @@
 }
 
 .FlipCardFront {
-    background-color: #bbb;
     color: black;
 }
 
 .FlipCardBack {
-    background-color: #2980b9;
     color: white;
     padding: 60px 0;
     transform: rotateY(180deg);
