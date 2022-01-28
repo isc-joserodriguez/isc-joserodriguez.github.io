@@ -7,7 +7,6 @@ import classes from './index.module.css';
 const Work = ({ title, works, more }) => (
   <section id='work' className={classes.Work}>
     <Container>
-      <hr className={classes.Divisor} />
       <h3 className={classes.Title}>{title}</h3>
       {works.map(work => (
         <Row key={work.id} className='py-3'>

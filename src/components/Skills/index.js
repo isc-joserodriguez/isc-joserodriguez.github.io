@@ -17,7 +17,6 @@ const Skills = ({
 }) => (
   <section id='skills' className={classes.Skills}>
     <Container>
-      <hr className={classes.Divisor} />
       <h3 className={classes.Title}>{title}</h3>
       <GridSkills id={language.id} title={language.title} technologies={language.technologies} />
       <GridSkills id={db.id} title={db.title} technologies={db.technologies} />
