@@ -36,12 +36,16 @@ import LogoNetlify from '../assets/images/icons/netlify.svg';
 import LogoNextjs from '../assets/images/icons/nextjs.svg';
 import LogoNodejs from '../assets/images/icons/nodejs.svg';
 import LogoPostgresql from '../assets/images/icons/postgresql.svg';
+import LogoAntD from '../assets/images/icons/antd.svg';
 import LogoPython from '../assets/images/icons/python.svg';
 import LogoReact from '../assets/images/icons/react.svg';
 import LogoScss from '../assets/images/icons/scss.svg';
 import LogoSqlServer from '../assets/images/icons/sqlServer.svg';
 import LogoTailwind from '../assets/images/icons/tailwind.svg';
 import LogoVue from '../assets/images/icons/vue.svg';
+import LogoNest from '../assets/images/icons/nest.svg';
+import LogoStorybook from '../assets/images/icons/storybook.svg';
+import LogoStrapi from '../assets/images/icons/strapi.svg';
 
 import Burger from '../assets/images/capturas/burger.png';
 import Cursos from '../assets/images/capturas/cursos.png';
@@ -50,10 +54,8 @@ import Matcha from '../assets/images/capturas/matcha.png';
 import ML from '../assets/images/capturas/ml.png';
 import Restaurant from '../assets/images/capturas/restaurant.png';
 import TODO from '../assets/images/capturas/todo.png';
-
-
-
-
+import LPMexicanCoffee from '../assets/images/capturas/lp.png';
+import TodoAntD from '../assets/images/capturas/todo-antd.png';
 
 export const strings = {
     es: {
@@ -197,7 +199,7 @@ export const strings = {
             technologies: {
                 language: {
                     title: 'Lenguajes',
-                    id:'languages',
+                    id: 'languages',
                     technologies: [
                         { id: 1, name: 'JavaScript', icon: LogoJs, url: 'https://developer.mozilla.org/es/docs/Web/JavaScript' },
                         { id: 2, name: 'HTML', icon: LogoHtml, url: 'https://developer.mozilla.org/es/docs/Web/HTML' },
@@ -211,7 +213,7 @@ export const strings = {
                 },
                 db: {
                     title: 'Bases de Datos',
-                    id:'dbs',
+                    id: 'dbs',
                     technologies: [
                         { id: 1, name: 'MongoDB', icon: LogoMongodb, url: 'https://www.mongodb.com/es' },
                         { id: 2, name: 'MS SQL Server', icon: LogoSqlServer, url: 'https://www.microsoft.com/es-mx/sql-server/sql-server-downloads' },
@@ -221,32 +223,34 @@ export const strings = {
                 },
                 css: {
                     title: 'Frameworks de CSS',
-                    id:'css',
+                    id: 'css',
                     technologies: [
                         { id: 1, name: 'Bootstrap', icon: LogoBootstrap, url: 'https://getbootstrap.com/' },
                         { id: 2, name: 'Bulma', icon: LogoBulma, url: 'https://bulma.io/' },
                         { id: 3, name: 'Materialize', icon: LogoMaterialize, url: 'https://materializecss.com/' },
                         { id: 4, name: 'Tailwind CSS', icon: LogoTailwind, url: 'https://tailwindcss.com/' },
+                        { id: 5, name: 'Ant Design', icon: LogoAntD, url: 'https://ant.design/' },
                     ]
                 },
                 framework: {
                     title: 'Frameworks',
-                    id:'frameworks',
+                    id: 'frameworks',
                     technologies: [
                         { id: 1, name: 'Express.js', icon: LogoExpress, url: 'https://expressjs.com/es/' },
-                        { id: 2, name: 'React', icon: LogoReact, url: 'https://es.reactjs.org/' },
-                        { id: 3, name: 'Angular', icon: LogoAngular, url: 'https://angular.io/' },
-                        { id: 4, name: 'Android', icon: LogoAndroid, url: 'https://www.android.com/intl/es-419_mx/' },
-                        { id: 5, name: 'Ionic', icon: LogoIonic, url: 'https://ionicframework.com/' },
-                        { id: 6, name: 'VueJS', icon: LogoVue, url: 'https://vuejs.org/' },
-                        { id: 7, name: 'Gatsby.js', icon: LogoGatsby, url: 'https://www.gatsbyjs.com/' },
-                        { id: 8, name: 'Next.js', icon: LogoNextjs, url: 'https://nextjs.org/' },
-                        { id: 9, name: '.NET Core', icon: LogoNetCore, url: 'https://dotnet.microsoft.com/download' },
+                        { id: 2, name: 'NestJS', icon: LogoNest, url: 'https://nestjs.com/' },
+                        { id: 3, name: 'React', icon: LogoReact, url: 'https://es.reactjs.org/' },
+                        { id: 4, name: 'Angular', icon: LogoAngular, url: 'https://angular.io/' },
+                        { id: 5, name: 'Android', icon: LogoAndroid, url: 'https://www.android.com/intl/es-419_mx/' },
+                        { id: 6, name: 'Ionic', icon: LogoIonic, url: 'https://ionicframework.com/' },
+                        { id: 7, name: 'VueJS', icon: LogoVue, url: 'https://vuejs.org/' },
+                        { id: 8, name: 'Gatsby.js', icon: LogoGatsby, url: 'https://www.gatsbyjs.com/' },
+                        { id: 9, name: 'Next.js', icon: LogoNextjs, url: 'https://nextjs.org/' },
+                        { id: 10, name: '.NET Core', icon: LogoNetCore, url: 'https://dotnet.microsoft.com/download' },
                     ]
                 },
                 cloud: {
                     title: 'Nube',
-                    id:'cloud',
+                    id: 'cloud',
                     technologies: [
                         { id: 1, name: 'Firebase', icon: LogoFirebase, url: 'https://firebase.google.com/?hl=es' },
                         { id: 2, name: 'MongoDB Atlas', icon: LogoMongodb, url: 'https://www.mongodb.com/es/cloud/atlas' },
@@ -256,11 +260,13 @@ export const strings = {
                 },
                 other: {
                     title: 'Otras',
-                    id:'other',
+                    id: 'other',
                     technologies: [
                         { id: 1, name: 'Git', icon: LogoGit, url: 'https://git-scm.com/' },
                         { id: 2, name: 'NodeJS', icon: LogoNodejs, url: 'https://nodejs.org/es/' },
-                        { id: 3, name: 'jQuery', icon: LogoJquery, url: 'https://jquery.com/' },
+                        { id: 3, name: 'Storybook.js', icon: LogoStorybook, url: 'https://storybook.js.org/' },
+                        { id: 4, name: 'Strapi', icon: LogoStrapi, url: 'https://strapi.io/' },
+                        { id: 5, name: 'jQuery', icon: LogoJquery, url: 'https://jquery.com/' },
                     ]
                 },
             }
@@ -275,13 +281,15 @@ export const strings = {
                 { id: 5, name: 'Plataforma de Cursos', description: 'Plataforma para tomar cursos en línea.', url: 'https://project-cursos.surge.sh/', repo: 'https://github.com/isc-joserodriguez/ProyectoCurso', image: Cursos },
                 { id: 6, name: 'TODO App', description: 'TODO App hecha únicamente con vanilla js (sólo un root en el HTML).', url: 'https://isc-joserodriguez.github.io/BEDU-Grupo11/todo-app/', repo: 'https://github.com/isc-joserodriguez/BEDU-Grupo11', image: TODO },
                 { id: 7, name: 'Fic Web', description: 'Compilador web de un lenguaje de programación para crear horarios escolares.', url: 'https://isc-joserodriguez.github.io/ficWeb/', repo: 'https://github.com/isc-joserodriguez/ficWeb', image: Fic },
+                { id: 8, name: 'LP-Mexican Coffee', description: 'Landing Page de una cafetería ficticia.', url: 'https://isc-joserodriguez.github.io/LP-MexicanCoffee/', repo: 'https://github.com/isc-joserodriguez/LP-MexicanCoffee', image: LPMexicanCoffee },
+                { id: 9, name: 'TODO List', description: 'TODO List construída con React + Ant Design.', url: 'https://isc-joserodriguez.github.io/todo-react/', repo: 'https://github.com/isc-joserodriguez/todo-react', image: TodoAntD },
             ]
         },
         contact: {
             title: 'Contacto',
             phone: '+52 311 113 17 55',
             email: 'isc.joserodriguez@gmail.com',
-            country: 'Tepic, Narait. México'
+            country: 'Tepic, Nayarit. México'
         }
     },
     en: {
@@ -433,7 +441,7 @@ export const strings = {
             technologies: {
                 language: {
                     title: 'Languages',
-                    id:'languages',
+                    id: 'languages',
                     technologies: [
                         { id: 1, name: 'JavaScript', icon: LogoJs, url: 'https://developer.mozilla.org/es/docs/Web/JavaScript' },
                         { id: 2, name: 'HTML', icon: LogoHtml, url: 'https://developer.mozilla.org/es/docs/Web/HTML' },
@@ -447,7 +455,7 @@ export const strings = {
                 },
                 db: {
                     title: 'Data Bases',
-                    id:'dbs',
+                    id: 'dbs',
                     technologies: [
                         { id: 1, name: 'MongoDB', icon: LogoMongodb, url: 'https://www.mongodb.com/es' },
                         { id: 2, name: 'MS SQL Server', icon: LogoSqlServer, url: 'https://www.microsoft.com/es-mx/sql-server/sql-server-downloads' },
@@ -457,32 +465,34 @@ export const strings = {
                 },
                 css: {
                     title: 'CSS Frameworks',
-                    id:'css',
+                    id: 'css',
                     technologies: [
                         { id: 1, name: 'Bootstrap', icon: LogoBootstrap, url: 'https://getbootstrap.com/' },
                         { id: 2, name: 'Bulma', icon: LogoBulma, url: 'https://bulma.io/' },
                         { id: 3, name: 'Materialize', icon: LogoMaterialize, url: 'https://materializecss.com/' },
                         { id: 4, name: 'Tailwind CSS', icon: LogoTailwind, url: 'https://tailwindcss.com/' },
+                        { id: 5, name: 'Ant Design', icon: LogoAntD, url: 'https://ant.design/' },
                     ]
                 },
                 framework: {
                     title: 'Frameworks',
-                    id:'frameworks',
+                    id: 'frameworks',
                     technologies: [
                         { id: 1, name: 'Express.js', icon: LogoExpress, url: 'https://expressjs.com/es/' },
-                        { id: 2, name: 'React', icon: LogoReact, url: 'https://es.reactjs.org/' },
-                        { id: 3, name: 'Angular', icon: LogoAngular, url: 'https://angular.io/' },
-                        { id: 4, name: 'Android', icon: LogoAndroid, url: 'https://www.android.com/intl/es-419_mx/' },
-                        { id: 5, name: 'Ionic', icon: LogoIonic, url: 'https://ionicframework.com/' },
-                        { id: 6, name: 'VueJS', icon: LogoVue, url: 'https://vuejs.org/' },
-                        { id: 7, name: 'Gatsby.js', icon: LogoGatsby, url: 'https://www.gatsbyjs.com/' },
-                        { id: 8, name: 'Next.js', icon: LogoNextjs, url: 'https://nextjs.org/' },
-                        { id: 9, name: '.NET Core', icon: LogoNetCore, url: 'https://dotnet.microsoft.com/download' },
+                        { id: 2, name: 'NestJS', icon: LogoNest, url: 'https://nestjs.com/' },
+                        { id: 3, name: 'React', icon: LogoReact, url: 'https://es.reactjs.org/' },
+                        { id: 4, name: 'Angular', icon: LogoAngular, url: 'https://angular.io/' },
+                        { id: 5, name: 'Android', icon: LogoAndroid, url: 'https://www.android.com/intl/es-419_mx/' },
+                        { id: 6, name: 'Ionic', icon: LogoIonic, url: 'https://ionicframework.com/' },
+                        { id: 7, name: 'VueJS', icon: LogoVue, url: 'https://vuejs.org/' },
+                        { id: 8, name: 'Gatsby.js', icon: LogoGatsby, url: 'https://www.gatsbyjs.com/' },
+                        { id: 9, name: 'Next.js', icon: LogoNextjs, url: 'https://nextjs.org/' },
+                        { id: 10, name: '.NET Core', icon: LogoNetCore, url: 'https://dotnet.microsoft.com/download' },
                     ]
                 },
                 cloud: {
                     title: 'Cloud',
-                    id:'cloud',
+                    id: 'cloud',
                     technologies: [
                         { id: 1, name: 'Firebase', icon: LogoFirebase, url: 'https://firebase.google.com/?hl=es' },
                         { id: 2, name: 'MongoDB Atlas', icon: LogoMongodb, url: 'https://www.mongodb.com/es/cloud/atlas' },
@@ -492,11 +502,13 @@ export const strings = {
                 },
                 other: {
                     title: 'Other',
-                    id:'other',
+                    id: 'other',
                     technologies: [
                         { id: 1, name: 'Git', icon: LogoGit, url: 'https://git-scm.com/' },
                         { id: 2, name: 'NodeJS', icon: LogoNodejs, url: 'https://nodejs.org/es/' },
-                        { id: 3, name: 'jQuery', icon: LogoJquery, url: 'https://jquery.com/' },
+                        { id: 3, name: 'Storybook.js', icon: LogoStorybook, url: 'https://storybook.js.org/' },
+                        { id: 4, name: 'Strapi', icon: LogoStrapi, url: 'https://strapi.io/' },
+                        { id: 5, name: 'jQuery', icon: LogoJquery, url: 'https://jquery.com/' },
                     ]
                 },
             }
@@ -511,13 +523,15 @@ export const strings = {
                 { id: 5, name: 'Curses Platform', description: 'Platform to take online courses.', url: 'https://project-cursos.surge.sh/', repo: 'https://github.com/isc-joserodriguez/ProyectoCurso', image: Cursos },
                 { id: 6, name: 'TODO App', description: 'TODO App made only with vanilla js (only a root in the HTML).', url: 'https://isc-joserodriguez.github.io/BEDU-Grupo11/todo-app/', repo: 'https://github.com/isc-joserodriguez/BEDU-Grupo11', image: TODO },
                 { id: 7, name: 'Fic Web', description: 'Web compiler of a programming language to create school schedules.', url: 'https://isc-joserodriguez.github.io/ficWeb/', repo: 'https://github.com/isc-joserodriguez/ficWeb', image: Fic },
+                { id: 8, name: 'LP-Mexican Coffee', description: 'Landing Page of a fictional coffee shop.', url: 'https://isc-joserodriguez.github.io/LP-MexicanCoffee/', repo: 'https://github.com/isc-joserodriguez/LP-MexicanCoffee', image: LPMexicanCoffee },
+                { id: 9, name: 'TODO List', description: 'TODO List built with React + Ant Design.', url: 'https://isc-joserodriguez.github.io/todo-react/', repo: 'https://github.com/isc-joserodriguez/todo-react', image: TodoAntD },
             ]
         },
         contact: {
             title: 'Contact',
             phone: '+52 311 113 17 55',
             email: 'isc.joserodriguez@gmail.com',
-            country: 'Tepic, Narait. Mexico'
+            country: 'Tepic, Nayarit. Mexico'
         }
     },
 }
