@@ -1,0 +1,60 @@
+---
+slug: "burger-builder"
+title: "Burger Builder"
+summary: "Plataforma interactiva para personalizar y ordenar hamburguesas en línea con integración a Firebase para autenticación y almacenamiento."
+coverImage: "/images/capturas/burger.png"
+stack:
+  - "React"
+  - "Firebase"
+  - "Redux"
+  - "React Router"
+  - "Axios"
+role: "Frontend Developer"
+date: "2021-03-20"
+featured: true
+links:
+  demo: "https://react-burger-builder-aecb3.web.app/"
+  repo: "https://github.com/isc-joserodriguez/burger-builder"
+---
+
+## Contexto
+
+Proyecto desarrollado siguiendo el curso de React de Maximilian Schwarzmüller. El objetivo era crear una aplicación completa con autenticación, gestión de estado global y persistencia de datos en la nube.
+
+## Retos
+
+- **Estado Global**: Implementación de Redux para manejar el estado complejo de la aplicación
+- **Autenticación**: Integración con Firebase Authentication para registro y login de usuarios
+- **Base de datos**: Persistencia de órdenes en Firebase Realtime Database
+- **Arquitectura**: Organización de código escalable y mantenible
+
+## Solución Técnica
+
+Desarrollé una SPA (Single Page Application) con React y Redux que permite:
+
+- Personalizar hamburguesas agregando/quitando ingredientes
+- Calcular precio dinámicamente según ingredientes seleccionados
+- Sistema de autenticación con email/password
+- Almacenar órdenes en Firebase asociadas al usuario
+- Consultar historial de órdenes
+- Routing con protección de rutas privadas
+
+**Stack técnico**:
+- React con class components y lifecycle methods
+- Redux para estado global con Redux Thunk para acciones asíncronas
+- Firebase Authentication y Realtime Database
+- Axios para peticiones HTTP
+- CSS Modules con diseño responsive
+
+## Impacto
+
+Este proyecto fue fundamental para entender:
+- Arquitectura de aplicaciones React a escala
+- Gestión de estado global con Redux
+- Integración con servicios backend (BaaS)
+- Autenticación y autorización en SPAs
+- Best practices de React y JavaScript
+
+## Equipo
+
+Proyecto individual desarrollado como parte del curso "React - The Complete Guide" en Udemy.

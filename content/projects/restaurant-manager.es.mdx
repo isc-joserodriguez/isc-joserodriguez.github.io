@@ -1,0 +1,68 @@
+---
+slug: "restaurant-manager"
+title: "Restaurant Manager"
+summary: "Plataforma para gestionar los pedidos de un restaurante con sistema de inventario en tiempo real."
+coverImage: "/images/capturas/restaurant.png"
+stack:
+  - "React"
+  - "Node.js"
+  - "MongoDB"
+  - "Express"
+role: "Full-Stack Developer"
+date: "2021-06-15"
+featured: true
+links:
+  demo: "https://isc-joserodriguez.github.io/BEDU_Grupo5/"
+  repo: "https://github.com/isc-joserodriguez/BEDU_Grupo5"
+---
+
+## Contexto
+
+Este proyecto fue desarrollado como proyecto final del bootcamp de BEDU. El objetivo era crear una solución completa para la gestión de pedidos de un restaurante, permitiendo a los meseros tomar órdenes desde tablets y a la cocina visualizar los pedidos en tiempo real.
+
+## Retos
+
+- **Sincronización en tiempo real**: Múltiples dispositivos debían mostrar la misma información actualizada instantáneamente
+- **Gestión de inventario**: Control de stock de ingredientes y alertas automáticas
+- **Interfaz intuitiva**: El personal debía poder usar el sistema sin capacitación extensa
+- **Rendimiento**: Manejar múltiples órdenes simultáneas sin degradación del sistema
+
+## Solución Técnica
+
+### Frontend
+- **React** para la interfaz de usuario con componentes reutilizables
+- **React Router** para navegación entre vistas (meseros, cocina, admin)
+- **Socket.io Client** para actualizaciones en tiempo real
+- **Context API** para manejo de estado global
+
+### Backend
+- **Node.js + Express** como servidor API RESTful
+- **MongoDB** como base de datos NoSQL para flexibilidad en el esquema
+- **Socket.io** para comunicación bidireccional en tiempo real
+- **JWT** para autenticación y autorización por roles
+
+### Arquitectura
+```
+[Tablets Meseros] ←→ [Socket.io] ←→ [API Node.js] ←→ [MongoDB]
+                                            ↕
+                     [Pantalla Cocina] ←→ [Socket.io]
+```
+
+## Impacto
+
+- ✅ Reducción del 30% en tiempo de procesamiento de órdenes
+- ✅ Eliminación de errores por órdenes escritas a mano
+- ✅ Visibilidad en tiempo real del estado de la cocina
+- ✅ Reportes automáticos de ventas e inventario
+
+## Aprendizajes
+
+Este proyecto me permitió profundizar en:
+- Arquitectura de aplicaciones en tiempo real con WebSockets
+- Diseño de APIs RESTful escalables
+- Gestión de estado complejo en React
+- Trabajo en equipo usando metodologías ágiles (Scrum)
+
+## Equipo
+
+Proyecto desarrollado en equipo de 4 personas durante 8 semanas en el bootcamp de BEDU.

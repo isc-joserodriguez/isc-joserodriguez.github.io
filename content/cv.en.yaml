@@ -1,0 +1,77 @@
+# CV - Curriculum Vitae - English
+
+# Personal information (obtained from site.yaml)
+# Reuse: hero.title, hero.subtitle, hero.location, contact.email, contact.phone, socials
+
+# Professional summary
+summary: |
+  Computer Systems Engineer with over 3 years of experience in Full Stack development. 
+  Specialized in creating modern and scalable web applications using technologies such as React, 
+  Next.js, Node.js, and SQL/NoSQL databases. Experienced working in agile teams and leading 
+  projects from conception to production deployment.
+
+# Professional objectives
+objective: |
+  Seeking opportunities to apply my technical skills in innovative projects that generate 
+  positive impact, while continuing to grow professionally in collaborative and 
+  challenging environments.
+
+# Key skills (complemented with skills.yaml)
+keySkills:
+  - "Full Stack Development with MERN/MEAN stack"
+  - "Scalable application architecture"
+  - "Agile methodologies (Scrum, Kanban)"
+  - "Teamwork and technical leadership"
+  - "Complex problem solving"
+  - "Effective communication and mentoring"
+
+# Education (obtained from education.yaml)
+# Reuse complete data
+
+# Experience (obtained from experience.yaml)
+# Reuse complete data
+
+# Featured projects (obtained from projects/*.mdx, filtered by featured: true)
+# Only show projects marked as featured
+
+# Certifications
+certifications:
+  - name: "React - The Complete Guide"
+    issuer: "Udemy - Maximilian Schwarzmüller"
+    date: "2021"
+    url: "https://www.udemy.com/certificate/UC-xxxxx/"
+
+  - name: "Node.js - The Complete Guide"
+    issuer: "Udemy - Maximilian Schwarzmüller"
+    date: "2021"
+    url: "https://www.udemy.com/certificate/UC-xxxxx/"
+
+# Languages
+languages:
+  - language: "Spanish"
+    level: "Native"
+  
+  - language: "English"
+    level: "Intermediate - B1/B2"
+    details: "Technical reading and writing, basic conversation"
+
+# Professional interests
+interests:
+  - "Software Architecture"
+  - "Artificial Intelligence and Machine Learning"
+  - "Cloud Computing and DevOps"
+  - "UI/UX Design"
+  - "Open Source"
+
+# CV configuration
+config:
+  showPhoto: true
+  showSocials: true
+  sectionsOrder:
+    - "summary"
+    - "experience"
+    - "education"
+    - "skills"
+    - "projects"
+    - "certifications"
+    - "languages"

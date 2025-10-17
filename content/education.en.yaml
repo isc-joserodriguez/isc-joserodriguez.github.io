@@ -1,0 +1,28 @@
+# Education - English
+
+title: "Education"
+
+items:
+  - id: 1
+    institution: "BEDU"
+    degree: "Bootcamp - Full Stack Development"
+    period: "October 2020 - June 2021"
+    description: "I won a scholarship awarded to 200 students to study Full Stack web development in a bootcamp with a specialization in React. During 3 phases that lasted 8 months, in each phase they were disqualifying students until finally we were 40."
+    url: "https://bedu.org/"
+    logo: "/images/logos/bedu.svg"
+
+  - id: 2
+    institution: "Instituto Tecnológico de Tepic"
+    degree: "Computer Systems Engineering"
+    period: "August 2013 - December 2019"
+    description: "I studied Computer Systems Engineering at the Instituto Tecnológico de Tepic (currently also known as Tecnológico Nacional de México - Campus Tepic). The specialization was in multiplatform applications, however it also covers areas such as databases (SQL and NoSQL), web development (with frameworks such as Angular, React, Vue and .Net Core), mobile development (with native Java and with cross-platform frameworks such as Ionic and Xamarin Forms), network administration, among other skills."
+    url: "https://www.tepic.tecnm.mx/"
+    logo: "/images/logos/itt.svg"
+
+  - id: 3
+    institution: "Cetis No. 100"
+    degree: "IT Technician"
+    period: "August 2010 - June 2013"
+    description: "Cetis No. 100 is part of the DGETI, it is a baccalaureate where I entered as an IT technician in the area of mathematical physics. This is where I got into programming with simple languages such as C++ and Visual Basic, as well as databases with Microsoft Access."
+    url: "https://www.cetis100.edu.mx/"
+    logo: "/images/logos/dgeti.svg"

@@ -1,0 +1,73 @@
+# Site Configuration - English
+
+# General information
+site:
+  name: "José Antonio Rodriguez Hernandez"
+  title: "Full-Stack Tech Lead"
+  description: "Tech Lead with 7+ years building end-to-end web and mobile products. Specialist in NestJS, React/React Native, Prisma and AWS."
+  url: "https://jose-rodriguez.dev"
+  locale: "en_US"
+  timezone: "America/Mazatlan"
+
+# Hero / Home
+hero:
+  title: "Hi, I'm José Antonio Rodriguez"
+  subtitle: "Full-Stack Tech Lead"
+  location: "Tepic, Nayarit · México"
+  description: "Tech Lead with 7+ years building end-to-end web and mobile products. I lead agile teams and translate business objectives into scalable solutions. Specialist in NestJS, React/React Native, Prisma and AWS."
+  ctaPrimary:
+    label: "Contact Me"
+    href: "#contact"
+  ctaSecondary:
+    label: "View Projects"
+    href: "#projects"
+
+# Social links
+socials:
+  - key: "linkedin"
+    name: "LinkedIn"
+    url: "https://www.linkedin.com/in/isc-joserodriguez"
+  - key: "github"
+    name: "GitHub"
+    url: "https://github.com/isc-joserodriguez"
+  - key: "hackerrank"
+    name: "HackerRank"
+    url: "https://www.hackerrank.com/isc_jrodriguez"
+  - key: "codepen"
+    name: "CodePen"
+    url: "https://codepen.io/isc-joserodriguez"
+  - key: "codewars"
+    name: "Codewars"
+    url: "https://www.codewars.com/users/isc-joserodriguez"
+
+# Navigation
+navigation:
+  - name: "Home"
+    href: "/"
+  - name: "About"
+    href: "#about"
+  - name: "Education"
+    href: "#education"
+  - name: "Experience"
+    href: "#experience"
+  - name: "Skills"
+    href: "#skills"
+  - name: "Projects"
+    href: "#projects"
+  - name: "Contact"
+    href: "#contact"
+
+# Contact
+contact:
+  title: "Contact"
+  subtitle: "Have a project in mind?"
+  email: "isc.joserodriguez@gmail.com"
+  phone: "+52 311 113 17 55"
+  location: "Tepic, Nayarit, México"
+  availability: "Available for freelance projects and full-time opportunities"
+  cvDownloadLabel: "Download Resume"
+
+# Footer
+footer:
+  copyright: "José Rodriguez. All rights reserved."
+  backToTop: "Back to top"

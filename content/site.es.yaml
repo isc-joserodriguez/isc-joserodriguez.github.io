@@ -1,0 +1,73 @@
+# Configuración del sitio - Español
+
+# Información general
+site:
+  name: "José Antonio Rodriguez Hernandez"
+  title: "Full-Stack Tech Lead"
+  description: "Tech Lead con 7+ años creando productos web y móviles end-to-end. Especialista en NestJS, React/React Native, Prisma y AWS."
+  url: "https://jose-rodriguez.dev"
+  locale: "es_MX"
+  timezone: "America/Mazatlan"
+
+# Hero / Inicio
+hero:
+  title: "Hola, soy José Antonio Rodriguez"
+  subtitle: "Full-Stack Tech Lead"
+  location: "Tepic, Nayarit · México"
+  description: "Tech Lead con 7+ años creando productos web y móviles end-to-end. Lidero equipos ágiles y traduzco objetivos de negocio en soluciones escalables. Especialista en NestJS, React/React Native, Prisma y AWS."
+  ctaPrimary:
+    label: "Contáctame"
+    href: "#contacto"
+  ctaSecondary:
+    label: "Ver Proyectos"
+    href: "#proyectos"
+
+# Enlaces sociales
+socials:
+  - key: "linkedin"
+    name: "LinkedIn"
+    url: "https://www.linkedin.com/in/isc-joserodriguez"
+  - key: "github"
+    name: "GitHub"
+    url: "https://github.com/isc-joserodriguez"
+  - key: "hackerrank"
+    name: "HackerRank"
+    url: "https://www.hackerrank.com/isc_jrodriguez"
+  - key: "codepen"
+    name: "CodePen"
+    url: "https://codepen.io/isc-joserodriguez"
+  - key: "codewars"
+    name: "Codewars"
+    url: "https://www.codewars.com/users/isc-joserodriguez"
+
+# Navegación
+navigation:
+  - name: "Inicio"
+    href: "/"
+  - name: "Sobre mí"
+    href: "#sobre-mi"
+  - name: "Educación"
+    href: "#educacion"
+  - name: "Experiencia"
+    href: "#experiencia"
+  - name: "Habilidades"
+    href: "#habilidades"
+  - name: "Proyectos"
+    href: "#proyectos"
+  - name: "Contacto"
+    href: "#contacto"
+
+# Contacto
+contact:
+  title: "Contacto"
+  subtitle: "¿Tienes un proyecto en mente?"
+  email: "isc.joserodriguez@gmail.com"
+  phone: "+52 311 113 17 55"
+  location: "Tepic, Nayarit, México"
+  availability: "Disponible para proyectos freelance y oportunidades full-time"
+  cvDownloadLabel: "Descargar CV"
+
+# Footer
+footer:
+  copyright: "José Rodriguez. Todos los derechos reservados."
+  backToTop: "Volver arriba"

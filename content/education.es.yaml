@@ -1,0 +1,28 @@
+# Educación - Español
+
+title: "Educación"
+
+items:
+  - id: 1
+    institution: "BEDU"
+    degree: "Bootcamp - Desarrollo Full Stack"
+    period: "Octubre 2020 - Junio 2021"
+    description: "Gané una beca otorgada a 200 estudiantes para estudiar en un bootcamp el desarrollo web Full Stack con especialización en React. Durante 3 fases que duró 8 meses, en cada fase iban descalificando estudiantes hasta que finalmente quedamos 40."
+    url: "https://bedu.org/"
+    logo: "/images/logos/bedu.svg"
+
+  - id: 2
+    institution: "Instituto Tecnológico de Tepic"
+    degree: "Ingeniería en Sistemas Computacionales"
+    period: "Agosto 2013 - Diciembre 2019"
+    description: "Especialización en desarrollo de aplicaciones multiplataforma. Desarrollo web (React, Angular, Vue, .NET Core), desarrollo móvil (Android, Ionic), bases de datos (SQL y NoSQL), y administración de redes."
+    url: "https://www.tepic.tecnm.mx/"
+    logo: "/images/logos/itt.svg"
+
+  - id: 3
+    institution: "CETIS No. 100"
+    degree: "Técnico en Informática"
+    period: "Agosto 2010 - Junio 2013"
+    description: "Bachillerato técnico en informática del área físico-matemático. Fundamentos de programación (C++, Visual Basic) y bases de datos (Microsoft Access)."
+    url: "https://www.cetis100.edu.mx/"
+    logo: "/images/logos/dgeti.svg"

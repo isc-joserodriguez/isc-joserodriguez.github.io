@@ -1,0 +1,48 @@
+# Experiencia Laboral - Español
+
+title: "Experiencia Laboral"
+
+items:
+  - id: 1
+    company: "Blackstone Studio"
+    url: "https://www.blackstone.studio/"
+    logo: "/images/logos/blackstone.svg"
+    positions:
+      - position: "Tech Lead / Desarrollador Full Stack"
+        period: "Mayo 2023 - Actual"
+        description: "Coordinación de equipo de 5 devs + QA. Punto de contacto único con el cliente. Migré backend PHP monolítico a NestJS + Prisma. Diseñé CI/CD con GitHub Actions y AWS logrando despliegues semanales sin downtime. Mentor de developers junior."
+      - position: "Desarrollador Full Stack Sr"
+        period: "Septiembre 2021 - Mayo 2023"
+        description: "Construí herramienta CLI para agilizar despliegue de ambientes completos en AWS. Desarrollé servicios REST y GraphQL en NestJS. Integré Stripe para suscripciones automatizando facturación. Maquetación con React.js, Gatsby.js y Strapi CMS."
+
+  - id: 2
+    company: "Universidad Utel | U-Camp"
+    position: "Mentor de Desarrollo Web Full Stack"
+    period: "Julio 2021 - Septiembre 2024"
+    description: "Mentoreo de cohortes de 30+ alumnos en desarrollo web Full Stack (HTML, CSS, JavaScript, Node.js, MongoDB, React). Diseñé retos prácticos que aumentaron la tasa de finalización del bootcamp."
+    url: "https://u-camp.utel.edu.mx/"
+    logo: "/images/logos/ucamp.svg"
+
+  - id: 3
+    company: "DotDevs"
+    position: "Desarrollador Full Stack Mid"
+    period: "Junio 2020 - Julio 2021"
+    description: "Maquetación de interfaces web (React.js/Drupal/Angular). Desarrollo de servicios del lado del servidor (Express/PostgreSQL)."
+    url: "https://dotdevs.com/"
+    logo: "/images/logos/DotDevs.png"
+
+  - id: 4
+    company: "United Virtualities"
+    position: "Desarrollador Front End"
+    period: "Diciembre 2019 - Junio 2020"
+    description: "Participé en proyectos React/WordPress y Node.js/Express. Capacitación intensiva en SalesForce, SCSS y optimización de performance front-end."
+    url: "https://weareuv.com/"
+    logo: "/images/logos/uv.svg"
+
+  - id: 5
+    company: "Raise Technology"
+    position: "Desarrollador Full Stack Mid"
+    period: "Abril 2019 - Diciembre 2019"
+    description: "Lideré proyecto web para llevar clases en línea de los diferentes rubros de la empresa. Maquetación y creación de servicios web (Angular, MongoDB, Node.js, Express y Firebase)."
+    url: "https://raise-technology.com/"
+    logo: "/images/logos/raise-technology.svg"

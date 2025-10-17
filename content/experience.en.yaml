@@ -1,0 +1,72 @@
+# Work Experience - English
+
+title: "Work Experience"
+
+items:
+  - id: 1
+    company: "Blackstone Studio"
+    url: "https://www.blackstone.studio/"
+    logo: "/images/logos/blackstone.svg"
+    positions:
+      - position: "Tech Lead / Full Stack Developer"
+        period: "May 2023 - Current"
+        description: "Coordinating team of 5 devs + QA. Single point of contact with client. Migrated PHP monolithic backend to NestJS + Prisma. Designed CI/CD with GitHub Actions and AWS achieving weekly deployments with zero downtime. Mentoring junior developers."
+      - position: "Full Stack Developer Sr"
+        period: "September 2021 - May 2023"
+        description: "Built CLI tool to streamline complete AWS environment deployments. Developed REST and GraphQL services in NestJS. Integrated Stripe for subscriptions automating billing. Layout with React.js, Gatsby.js and Strapi CMS."
+
+  - id: 2
+    company: "Utel University | U-Camp"
+    position: "Full Stack Web Development Mentor"
+    period: "July 2021 - September 2024"
+    description: "Mentored cohorts of 30+ students in Full Stack web development (HTML, CSS, JavaScript, Node.js, MongoDB, React). Designed practical challenges that increased bootcamp completion rate."
+    url: "https://u-camp.utel.edu.mx/"
+    logo: "/images/logos/ucamp.svg"
+
+  - id: 3
+    company: "DotDevs"
+    position: "Full Stack Developer Mid"
+    period: "June 2020 - July 2021"
+    description: "Web interface layout (React.js/Drupal/Angular). Server-side services development (Express/PostgreSQL)."
+    url: "https://dotdevs.com/"
+    logo: "/images/logos/DotDevs.png"
+
+  - id: 4
+    company: "United Virtualities"
+    position: "Front End Developer"
+    period: "December 2019 - June 2020"
+    description: "Participated in React/WordPress and Node.js/Express projects. Intensive training in SalesForce, SCSS and front-end performance optimization."
+    url: "https://weareuv.com/"
+    logo: "/images/logos/uv.svg"
+
+  - id: 5
+    company: "Raise Technology"
+    position: "Full Stack Developer Mid"
+    period: "April 2019 - December 2019"
+    description: "Led web project for online classes across different company areas. Layout and web services creation (Angular, MongoDB, Node.js, Express and Firebase)."
+    url: "https://raise-technology.com/"
+    logo: "/images/logos/raise-technology.svg"
+
+  - id: 3
+    company: "Freelance"
+    position: "Full Stack Developer"
+    period: "July 2020 - September 2021"
+    description: "I have collaborated in some projects of local companies with technologies such as React, Gatsby.js, Next.js, Drupal, MongoDB, Firebase."
+    url: "#projects"
+    logo: "/images/logos/freelance.svg"
+
+  - id: 4
+    company: "United Virtualities"
+    position: "Software Engineer"
+    period: "December 2019 - June 2020"
+    description: "They gave me training in technologies like HTML, CSS, SCSS, JavaScript, NodeJS, Express, WordPress, SalesForce, React. I participated in projects taking roles as Front End using React and WordPress or as Back End using NodeJS, Express and MongoDB."
+    url: "https://weareuv.com/"
+    logo: "/images/logos/uv.svg"
+
+  - id: 5
+    company: "Raise Technology"
+    position: "Full Stack Developer"
+    period: "May 2019 - November 2019"
+    description: "In this company I developed a web project to take the online classes of the different rubles of the company (Language and technology classes). It was carried out in a team of 2 people. Technologies such as Angular, MongoDB, NodeJS, Express and Firebase were used."
+    url: "https://raise-technology.com/"
+    logo: "/images/logos/raise-technology.svg"

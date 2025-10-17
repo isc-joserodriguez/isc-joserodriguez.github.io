@@ -1,0 +1,65 @@
+---
+slug: "fic-compiler"
+title: "FIC Web Compiler"
+summary: "Compilador web de un lenguaje de programación personalizado para generar horarios escolares, desarrollado con JavaScript vanilla."
+coverImage: "/images/capturas/fic.png"
+stack:
+  - "JavaScript"
+  - "HTML5"
+  - "CSS3"
+  - "Compiladores"
+role: "Developer"
+date: "2019-10-15"
+featured: false
+links:
+  demo: "https://isc-joserodriguez.github.io/ficWeb/"
+  repo: "https://github.com/isc-joserodriguez/ficWeb"
+---
+
+## Contexto
+
+Proyecto universitario para la materia de "Lenguajes y Autómatas". El objetivo era crear un compilador completo para un lenguaje de programación personalizado llamado FIC (Flexible Instruction Compiler), diseñado específicamente para generar y gestionar horarios escolares.
+
+## Retos
+
+- **Análisis Léxico**: Implementar un scanner/lexer para tokenizar el código fuente
+- **Análisis Sintáctico**: Crear un parser para validar la gramática del lenguaje
+- **Análisis Semántico**: Validar la lógica y contexto de las instrucciones
+- **Generación de Código**: Transformar las instrucciones FIC en HTML con horarios visuales
+- **Interfaz Web**: Crear un editor de código en el navegador con validación en tiempo real
+
+## Solución Técnica
+
+Desarrollé un compilador completo implementado en JavaScript puro que se ejecuta en el navegador:
+
+**Fases del Compilador**:
+1. **Análisis Léxico**: Tokenización del código fuente identificando palabras clave, identificadores, operadores y símbolos
+2. **Análisis Sintáctico**: Parser descendente recursivo que valida la gramática del lenguaje FIC
+3. **Análisis Semántico**: Validación de tipos, conflictos de horarios y restricciones
+4. **Generación de Código**: Producción de tablas HTML con los horarios generados
+
+**Características del Lenguaje FIC**:
+- Sintaxis inspirada en BASIC y Pascal
+- Declaración de materias, profesores y aulas
+- Asignación de horarios con validación de conflictos
+- Soporte para múltiples grupos y turnos
+
+**Interfaz**:
+- Editor de código con resaltado de sintaxis
+- Consola de errores con línea y tipo de error
+- Visualización en tiempo real de horarios generados
+- Exportación a HTML
+
+## Impacto
+
+Este proyecto me permitió:
+- Entender profundamente cómo funcionan los compiladores
+- Implementar patrones de diseño (Visitor, Singleton, Factory)
+- Dominar JavaScript vanilla sin frameworks
+- Aplicar teoría de lenguajes formales y autómatas en un proyecto real
+
+Obtuve calificación de 100/100 y fue presentado como proyecto destacado en la exposición de la carrera.
+
+## Equipo
+
+Proyecto universitario desarrollado en equipo de 3 personas. Mi rol fue liderar la arquitectura del compilador e implementar los análisis léxico y sintáctico.

@@ -1,0 +1,77 @@
+# CV - Curriculum Vitae - Español
+
+# Información personal (se obtiene de site.yaml)
+# Reutilizamos: hero.title, hero.subtitle, hero.location, contact.email, contact.phone, socials
+
+# Resumen profesional
+summary: |
+  Ingeniero en Sistemas Computacionales con más de 3 años de experiencia en desarrollo Full Stack. 
+  Especializado en crear aplicaciones web modernas y escalables utilizando tecnologías como React, 
+  Next.js, Node.js y bases de datos SQL/NoSQL. Experiencia trabajando en equipos ágiles y liderando 
+  proyectos desde la concepción hasta el despliegue en producción.
+
+# Objetivos profesionales
+objective: |
+  Busco oportunidades para aplicar mis habilidades técnicas en proyectos innovadores que generen 
+  impacto positivo, mientras continúo creciendo profesionalmente en entornos colaborativos y 
+  desafiantes.
+
+# Habilidades destacadas (se complementa con skills.yaml)
+keySkills:
+  - "Desarrollo Full Stack con stack MERN/MEAN"
+  - "Arquitectura de aplicaciones escalables"
+  - "Metodologías ágiles (Scrum, Kanban)"
+  - "Trabajo en equipo y liderazgo técnico"
+  - "Resolución de problemas complejos"
+  - "Comunicación efectiva y mentoría"
+
+# Educación (se obtiene de education.yaml)
+# Reutilizamos los datos completos
+
+# Experiencia (se obtiene de experience.yaml)
+# Reutilizamos los datos completos
+
+# Proyectos destacados (se obtiene de projects/*.mdx, filtrado por featured: true)
+# Solo mostraremos los proyectos marcados como destacados
+
+# Certificaciones
+certifications:
+  - name: "React - The Complete Guide"
+    issuer: "Udemy - Maximilian Schwarzmüller"
+    date: "2021"
+    url: "https://www.udemy.com/certificate/UC-xxxxx/"
+
+  - name: "Node.js - The Complete Guide"
+    issuer: "Udemy - Maximilian Schwarzmüller"
+    date: "2021"
+    url: "https://www.udemy.com/certificate/UC-xxxxx/"
+
+# Idiomas
+languages:
+  - language: "Español"
+    level: "Nativo"
+  
+  - language: "Inglés"
+    level: "Intermedio - B1/B2"
+    details: "Lectura y escritura técnica, conversación básica"
+
+# Intereses profesionales
+interests:
+  - "Arquitectura de software"
+  - "Inteligencia Artificial y Machine Learning"
+  - "Cloud Computing y DevOps"
+  - "UI/UX Design"
+  - "Open Source"
+
+# Configuración del CV
+config:
+  showPhoto: true
+  showSocials: true
+  sectionsOrder:
+    - "summary"
+    - "experience"
+    - "education"
+    - "skills"
+    - "projects"
+    - "certifications"
+    - "languages"
