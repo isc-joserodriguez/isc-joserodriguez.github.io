@@ -218,35 +218,57 @@ El componente `CompanyLogo` soporta SVG y PNG con fallback a iniciales:
 
 ## 🚢 Despliegue
 
-### GitHub Pages (Configurado)
+### GitHub Pages (Actual)
 
-El proyecto usa **static export** para GitHub Pages:
+El proyecto usa **static export** (`output: 'export'`) optimizado para GitHub Pages:
 
 ```bash
 npm run build  # Genera /out con sitio estático
 ```
 
-El workflow `.github/workflows/nextjs.yml` despliega automáticamente en cada push a `main`.
+**Workflow automático:**
+- `.github/workflows/nextjs.yml` despliega automáticamente
+- Cada push a `main` activa el despliegue
+- Build + Deploy en ~2-3 minutos
 
-**Configuración actual:**
-- Repositorio: `isc-joserodriguez.github.io`
-- URL: `https://isc-joserodriguez.github.io`
-- Base Path: configurado en `next.config.mjs`
+**URLs:**
+- Producción: `https://isc-joserodriguez.github.io`
+- Repositorio: `isc-joserodriguez/isc-joserodriguez.github.io`
 
 ### Vercel (Alternativa)
 
-También puede desplegarse en Vercel:
+Para desplegar en Vercel:
 
-1. Importar repositorio en Vercel
-2. Build automático detecta Next.js
-3. Configurar dominio personalizado (opcional)
+1. **Importar repositorio** en Vercel
+2. **Configuración automática** detectada por `vercel.json`:
+   - `outputDirectory: "out"`
+   - Build command: `npm run build`
+3. **(Opcional)** Configurar dominio personalizado
+
+**Archivo `vercel.json` incluido:**
+```json
+{
+  "outputDirectory": "out",
+  "buildCommand": "npm run build"
+}
+```
+
+**Ventajas de Vercel:**
+- ✅ Deploy previews en PRs
+- ✅ Analytics integrado
+- ✅ Dominio personalizado gratis
+- ✅ Edge Network global
 
 ### Variables de Entorno
 
-Crear `.env.local` para desarrollo:
+Crear `.env.local` para desarrollo local:
 
 ```env
+# URL del sitio (cambiar según despliegue)
 NEXT_PUBLIC_SITE_URL=https://isc-joserodriguez.github.io
+
+# Para Vercel, usar:
+# NEXT_PUBLIC_SITE_URL=https://tu-dominio.vercel.app
 ```
 
 ## 📊 SEO y Performance
