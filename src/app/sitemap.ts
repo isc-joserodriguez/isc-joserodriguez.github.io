@@ -4,35 +4,44 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://jose-rodriguez.dev';
   const projectSlugs = getAllProjectSlugs();
+  const now = new Date();
 
   const staticPages = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'weekly' as const,
       priority: 1,
     },
     {
       url: `${baseUrl}/cv/es`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
     },
     {
       url: `${baseUrl}/cv/en`,
-      lastModified: new Date(),
+      lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.9,
     },
   ];
 
-  // Add project pages
-  const projectPages = projectSlugs.map((slug) => ({
-    url: `${baseUrl}/proyectos/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  // Add project pages (both languages)
+  const projectPages = projectSlugs.flatMap((slug) => [
+    {
+      url: `${baseUrl}/proyectos/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/projects/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ]);
 
   return [...staticPages, ...projectPages];
 }

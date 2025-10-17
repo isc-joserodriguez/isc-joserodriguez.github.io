@@ -218,9 +218,31 @@ El componente `CompanyLogo` soporta SVG y PNG con fallback a iniciales:
 
 ## 🚢 Despliegue
 
-### GitHub Pages (Actual)
+### Vercel (Producción Actual)
 
-El proyecto usa **static export** (`output: 'export'`) optimizado para GitHub Pages:
+**El sitio está desplegado en Vercel con dominio personalizado:**
+
+**URLs:**
+- **Producción:** `https://jose-rodriguez.dev`
+- Dominio alternativo: `https://isc-joserodriguez.vercel.app`
+- Repositorio: `isc-joserodriguez/isc-joserodriguez.github.io`
+
+**Configuración:**
+- Archivo `vercel.json` incluido con `outputDirectory: "out"`
+- Build automático en cada push a `main`
+- Deploy previews en Pull Requests
+- Analytics integrado
+
+**Ventajas de Vercel:**
+- ✅ Dominio personalizado configurado
+- ✅ SSL/HTTPS automático
+- ✅ Edge Network global (baja latencia)
+- ✅ Deploy previews en PRs
+- ✅ Analytics y métricas
+
+### GitHub Pages (Alternativa)
+
+El proyecto también puede desplegarse en GitHub Pages usando **static export**:
 
 ```bash
 npm run build  # Genera /out con sitio estático
@@ -228,22 +250,7 @@ npm run build  # Genera /out con sitio estático
 
 **Workflow automático:**
 - `.github/workflows/nextjs.yml` despliega automáticamente
-- Cada push a `main` activa el despliegue
-- Build + Deploy en ~2-3 minutos
-
-**URLs:**
-- Producción: `https://isc-joserodriguez.github.io`
-- Repositorio: `isc-joserodriguez/isc-joserodriguez.github.io`
-
-### Vercel (Alternativa)
-
-Para desplegar en Vercel:
-
-1. **Importar repositorio** en Vercel
-2. **Configuración automática** detectada por `vercel.json`:
-   - `outputDirectory: "out"`
-   - Build command: `npm run build`
-3. **(Opcional)** Configurar dominio personalizado
+- URL: `https://isc-joserodriguez.github.io`
 
 **Archivo `vercel.json` incluido:**
 ```json
@@ -264,11 +271,8 @@ Para desplegar en Vercel:
 Crear `.env.local` para desarrollo local:
 
 ```env
-# URL del sitio (cambiar según despliegue)
-NEXT_PUBLIC_SITE_URL=https://isc-joserodriguez.github.io
-
-# Para Vercel, usar:
-# NEXT_PUBLIC_SITE_URL=https://tu-dominio.vercel.app
+# URL del sitio principal
+NEXT_PUBLIC_SITE_URL=https://jose-rodriguez.dev
 ```
 
 ## 📊 SEO y Performance
@@ -337,7 +341,7 @@ npm run format        # Prettier
 - **Email:** isc.joserodriguez@gmail.com
 - **LinkedIn:** [isc-joserodriguez](https://www.linkedin.com/in/isc-joserodriguez)
 - **GitHub:** [isc-joserodriguez](https://github.com/isc-joserodriguez)
-- **Portfolio:** [isc-joserodriguez.github.io](https://isc-joserodriguez.github.io)
+- **Portfolio:** [jose-rodriguez.dev](https://jose-rodriguez.dev)
 
 ---
 

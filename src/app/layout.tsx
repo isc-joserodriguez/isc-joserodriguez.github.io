@@ -12,22 +12,39 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   metadataBase: new URL('https://jose-rodriguez.dev'),
   title: {
-    default: 'José Rodriguez | Full-Stack Developer',
+    default: 'José Antonio Rodriguez Hernandez | Full-Stack Tech Lead',
     template: '%s | José Rodriguez',
   },
   description:
-    'Full-Stack Developer especializado en React, Next.js, Node.js y tecnologías modernas. Portafolio de proyectos y experiencia profesional.',
+    'Full-Stack Tech Lead con 7+ años de experiencia. Especializado en arquitecturas escalables, liderazgo técnico, React, Next.js, NestJS, Node.js, TypeScript, PostgreSQL, GraphQL y AWS. Portfolio profesional con proyectos destacados.',
   keywords: [
     'Full-Stack Developer',
+    'Tech Lead',
+    'Team Lead',
     'React',
     'Next.js',
+    'NestJS',
     'Node.js',
     'TypeScript',
     'JavaScript',
+    'PostgreSQL',
+    'MongoDB',
+    'GraphQL',
+    'Prisma',
+    'AWS',
+    'Docker',
+    'React Native',
     'Web Development',
+    'Mobile Development',
+    'Arquitectura de Software',
+    'Liderazgo Técnico',
+    'José Rodriguez',
+    'José Antonio Rodriguez',
+    'isc-joserodriguez',
   ],
-  authors: [{ name: 'José Rodriguez', url: 'https://jose-rodriguez.dev' }],
-  creator: 'José Rodriguez',
+  authors: [{ name: 'José Antonio Rodriguez Hernandez', url: 'https://jose-rodriguez.dev' }],
+  creator: 'José Antonio Rodriguez Hernandez',
+  publisher: 'José Antonio Rodriguez Hernandez',
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -38,26 +55,28 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_MX',
+    alternateLocale: ['en_US'],
     url: 'https://jose-rodriguez.dev',
-    title: 'José Rodriguez | Full-Stack Developer',
+    title: 'José Antonio Rodriguez Hernandez | Full-Stack Tech Lead',
     description:
-      'Full-Stack Developer especializado en React, Next.js, Node.js y tecnologías modernas.',
+      'Full-Stack Tech Lead con 7+ años de experiencia en arquitecturas escalables, React, NestJS, TypeScript, PostgreSQL y AWS.',
     siteName: 'José Rodriguez Portfolio',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'José Rodriguez - Full-Stack Developer',
+        alt: 'José Antonio Rodriguez Hernandez - Full-Stack Tech Lead',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'José Rodriguez | Full-Stack Developer',
+    title: 'José Antonio Rodriguez Hernandez | Full-Stack Tech Lead',
     description:
-      'Full-Stack Developer especializado en React, Next.js, Node.js y tecnologías modernas.',
+      'Tech Lead con 7+ años de experiencia. React, NestJS, TypeScript, PostgreSQL, GraphQL, AWS.',
     images: ['/og-image.png'],
+    creator: '@isc_jrodriguez',
   },
   robots: {
     index: true,
@@ -81,10 +100,11 @@ export default function RootLayout({
   const personSchema = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'José Rodriguez',
-    jobTitle: 'Full-Stack Developer',
+    name: 'José Antonio Rodriguez Hernandez',
+    alternateName: 'José Rodriguez',
+    jobTitle: 'Full-Stack Tech Lead',
     description:
-      'Ingeniero en Sistemas Computacionales especializado en desarrollo Full Stack con React, Next.js, Node.js y tecnologías modernas.',
+      'Full-Stack Tech Lead con más de 7 años de experiencia en desarrollo de software, arquitecturas escalables y liderazgo técnico. Especializado en React, Next.js, NestJS, Node.js, TypeScript, PostgreSQL, GraphQL y AWS.',
     url: 'https://jose-rodriguez.dev',
     email: 'isc.joserodriguez@gmail.com',
     telephone: '+52-311-113-1755',
@@ -115,25 +135,45 @@ export default function RootLayout({
       'React',
       'Next.js',
       'Node.js',
+      'NestJS',
       'TypeScript',
       'JavaScript',
-      'MongoDB',
       'PostgreSQL',
+      'MongoDB',
+      'GraphQL',
+      'Prisma',
+      'AWS',
+      'Docker',
+      'React Native',
       'Full Stack Development',
+      'Team Leadership',
+      'Software Architecture',
+      'Microservices',
+      'RESTful APIs',
+      'CI/CD',
     ],
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Blackstone Studio',
+    },
   };
 
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'José Rodriguez Portfolio',
-    description: 'Portafolio profesional de José Rodriguez - Full-Stack Developer',
+    name: 'José Antonio Rodriguez Hernandez - Portfolio',
+    description: 'Portfolio profesional de José Antonio Rodriguez Hernandez - Full-Stack Tech Lead con 7+ años de experiencia',
     url: 'https://jose-rodriguez.dev',
     author: {
       '@type': 'Person',
-      name: 'José Rodriguez',
+      name: 'José Antonio Rodriguez Hernandez',
     },
     inLanguage: ['es-MX', 'en-US'],
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://jose-rodriguez.dev?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
   };
 
   return (
@@ -149,6 +189,35 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <noscript>
+          <div style={{
+            padding: '2rem',
+            maxWidth: '800px',
+            margin: '0 auto',
+            fontFamily: 'system-ui, sans-serif',
+            lineHeight: '1.6'
+          }}>
+            <h1>José Antonio Rodriguez Hernandez</h1>
+            <h2>Full-Stack Tech Lead | 7+ años de experiencia</h2>
+            <p>
+              Tech Lead especializado en arquitecturas escalables, liderazgo técnico y desarrollo Full Stack. 
+              Experiencia con React, Next.js, Node.js, NestJS, TypeScript, PostgreSQL, MongoDB, GraphQL, y AWS.
+            </p>
+            <h3>Experiencia Destacada</h3>
+            <ul>
+              <li><strong>Blackstone Studio</strong> - Tech-Team Lead (2023-Actualidad)</li>
+              <li><strong>Universidad Utel | U-Camp</strong> - Tech Lead (2021-2024)</li>
+              <li><strong>DotDevs</strong> - Full Stack Developer (2020-2021)</li>
+            </ul>
+            <h3>Contacto</h3>
+            <ul>
+              <li>Email: isc.joserodriguez@gmail.com</li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/isc-joserodriguez">linkedin.com/in/isc-joserodriguez</a></li>
+              <li>GitHub: <a href="https://github.com/isc-joserodriguez">github.com/isc-joserodriguez</a></li>
+            </ul>
+            <p><em>Este sitio requiere JavaScript para la experiencia completa e interactiva.</em></p>
+          </div>
+        </noscript>
         <I18nProvider>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
             <SkipToContent />
